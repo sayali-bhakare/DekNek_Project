@@ -1,6 +1,5 @@
 // ─── Config ───────────────────────────────────────────────
-const API_BASE = "http://localhost:8080/api/auth"; // Change to deployed URL in production
-
+const API_BASE = "https://deknek-project-x61a.onrender.com/api/auth";
 // ─── Tab Switching ─────────────────────────────────────────
 function switchTab(tab) {
   const loginForm = document.getElementById("login-form");
